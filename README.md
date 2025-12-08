@@ -48,7 +48,7 @@ A Next.js application that generates personalized tarot cards from Twitter avata
    ```env
    GEMINI_API_KEY=your_gemini_api_key
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=your_supabase_publishable_key
    NEXT_PUBLIC_URL=http://localhost:3000
    NEXT_PUBLIC_BRAND_NAME=Your Event Name
    ```
@@ -198,7 +198,7 @@ Make sure to set all environment variables in your deployment platform.
 |----------|-------------|----------|
 | `GEMINI_API_KEY` | Google Gemini API key | Yes |
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL | Yes |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key | Yes |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY` | Supabase publishable/default key | Yes |
 | `NEXT_PUBLIC_URL` | Your app URL (for OG images) | Yes |
 | `NEXT_PUBLIC_BRAND_NAME` | Brand/event name | No |
 

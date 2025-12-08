@@ -16,7 +16,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 # Supabase Configuration
 # Get these from your Supabase project settings
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=your_supabase_publishable_key_here
 
 # App URL (for OG images and sharing)
 # Use your production URL when deployed
@@ -36,7 +36,7 @@ NEXT_PUBLIC_BRAND_NAME=Your Event Name
 2. **Set up Supabase:**
    - Go to [supabase.com](https://supabase.com) and create a project
    - In the SQL Editor, run the SQL from `supabase/schema.sql`
-   - Copy your project URL and anon key to `.env.local`
+   - Copy your project URL and publishable/default key to `.env.local`
 
 3. **Get Gemini API Key:**
    - Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
